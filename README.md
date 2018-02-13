@@ -1,13 +1,13 @@
 # Unix-Customizations
 
+> A beginner Unix enthusiast's customizations
+
  Mostly here for my sake, so I have an easy
  way to get things back to the way I prefer.
  That said, making it public for friends and
  anyone else that wants to give them a try.
  Pull requests welcome if you find some cool
  tricks or different ways of doing things.
-
-> A beginner Unix enthusiast's customizations
 
 ## Currently Included:
    .bashrc
