@@ -19,6 +19,4 @@ alias "trash"="gvfs-trash"
 # to show time in terminal
 # original from askubuntu
 #export PROMPT_COMMAND="echo -n \[\$(date +%H:%M:%S)\]\ "
-#without seconds
-export PROMPT_COMMAND="echo -n \[\$(date +%H:%M)\]\ "
 
