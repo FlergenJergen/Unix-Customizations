@@ -1,6 +1,12 @@
-" Currently a spaces heathen
+" Formatting--I like spaces for now.
 :set expandtab
 :set tabstop=4
+:set shiftwidth=4
+:set autoindent
+:set ruler
+:syntax on
+" avoid very long lines
+set textwidth=120
 " Line numbers on left hand side
 :set number
 " Search will ignore case by default.
@@ -15,3 +21,8 @@
 " Commands for using Vim as a hex editor
 :command! Hex execute "%!xxd"
 :command! Unhex execute "%!xxd -r"
+" Code Folding
+:set foldmethod=syntax
+" bash-similar tab completion 
+:set wildmode=longest,list,full
+:set wildmenu
