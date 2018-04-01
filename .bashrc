@@ -5,6 +5,14 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
+# Overwrites the one in /etc/bashrc
+# Shows only current dir in terminal, use `pwd` to see full path
+if [ "$color_prompt" = yes ]; then
+        PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u\[\033[00m\]:\[\033[01;34m\]\W\[\033[00m\]\$ '
+        else
+                PS1='${debian_chroot:+($debian_chroot)}\u:\W\$ '
+        fi
+
 # Uncomment the following line if you don't like systemctl's auto-paging feature:
 # export SYSTEMD_PAGER=
 
