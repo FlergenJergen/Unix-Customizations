@@ -11,12 +11,11 @@ fi
 # User specific aliases and functions
 alias l='ls -ah';
 
-#for using python3.6 rather than distro default
-alias python3.6=/usr/local/bin/python3.6
-alias "yum-base"="yum --disablerepo=* --enablerepo=base"
-alias "trash"="gvfs-trash"
+# for using python3.6 rather than distro default
+# Uncomment after building python3.6 from source,
+# if you do so
 
-# to show time in terminal
-# original from askubuntu
-#export PROMPT_COMMAND="echo -n \[\$(date +%H:%M:%S)\]\ "
+# alias python3.6=/usr/local/bin/python3.6
+
+alias "trash"="gvfs-trash"
 
