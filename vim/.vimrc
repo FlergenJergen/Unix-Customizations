@@ -4,7 +4,7 @@
 :set shiftwidth=4
 :set autoindent
 :set ruler
-:syntax on
+:syntax enable
 " avoid very long lines
 set textwidth=120
 " Line numbers on left hand side
@@ -26,3 +26,5 @@ set textwidth=120
 " bash-similar tab completion 
 :set wildmode=longest,list,full
 :set wildmenu
+:set path+=**
+
