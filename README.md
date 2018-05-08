@@ -1,6 +1,8 @@
-# Unix-Customizations
+# Linux-Customizations
 
-> A beginner Unix enthusiast's customizations
+> A beginner Linux Enthusiast's customizations
+
+## Branch for Ubuntu-VMs
 
  Mostly here for my sake, so I have an easy
  way to get things back to the way I prefer.
@@ -10,11 +12,15 @@
  tricks or different ways of doing things.
 
 ## Currently Included:
-   .bashrc
-   .vimrc
+ -  .bashrc
+ - .vimrc
+ -  some scripting tools I like
+ -  scripts to do apt stuff I always do with
+        new VMs
  
- Copy them to user's home folder to give them 
- a try. I highly recommend making backups of 
- your current configuration first.
-
- This is automated by 'BackupAndCopy.sh'
+ master-script currently broken. Look at it 
+    for reference if you want. Need to clean
+    up the way it calls scripts from dirs. No 
+    one uses this besides me though, so not a 
+    high priority.
+ 
