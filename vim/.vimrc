@@ -15,9 +15,9 @@ set textwidth=120
 :command! Java execute "! basename % .java | xargs java"
 :command! Javac execute "! basename % | xargs javac"
 " Helpful for Python Scripting
-:command! Py3 execute "! basename % | xargs python3"
+:command! Py execute "! python %"
 " Helpful for Bash Scripting
-:command! Bash execute "! basename % | xargs bash"
+:command! Bash execute "! bash %"
 " Commands for using Vim as a hex editor
 :command! Hex execute "%!xxd"
 :command! Unhex execute "%!xxd -r"
